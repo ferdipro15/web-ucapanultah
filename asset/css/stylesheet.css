@@ -18,7 +18,7 @@ body {
 
 img {
   height: 400px;
-  margin: 0 auto;
+  margin: -70px auto 0 auto;
 }
 
 #btn{
@@ -73,8 +73,8 @@ img {
 
 .ml6 {
   position: relative;
-  font-weight: 900;
-  font-size: 50px;
+  font-weight: 800;
+  font-size: 40px;
 }
 
 
@@ -82,7 +82,7 @@ img {
 .ml6 .text-wrapper,.ml10 .text-wrapper {
   position: relative;
   display: inline-block;
-  padding-top: 0.2em;
+  padding-top: 0.1em;
   padding-right: 0.05em;
   overflow: hidden;
 }
@@ -93,8 +93,9 @@ img {
 }
 
 h2{
+  font-size: 25px;
   font-weight: normal;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .kata1,.kata2,.kata3,.kata4,.kata5{
@@ -104,7 +105,7 @@ h2{
 .ml10 {
   position: relative;
   font-weight: 900;
-  font-size: 42px;
+  font-size: 30px;
 }
 
 
@@ -113,14 +114,16 @@ h2{
 }
 
 .slide3_text2{
-  font-size:25px;
+  font-size:20px;
 }
 
 .slide4_text{
   display:none;
 }
 
-
+.img4{
+	margin-bottom:10px;
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
@@ -143,11 +146,12 @@ body{
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 20px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
+	
 }
 
 /* Animation */
